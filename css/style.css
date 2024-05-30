@@ -1,0 +1,235 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*common css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*header start*/
+header{
+	margin: 20px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	margin-top: 12px;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+	margin: 0 auto;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 50px;
+	text-transform: uppercase;
+	color: #626262;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: .33s ease-in-out;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+}
+.banner_img{
+}
+.banner_img img{
+	width: 100%;
+}
+/*banneer end*/
+/*getaway start*/
+.getaway{
+	padding: 100px 0 30px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.getaway_content{
+}
+.light{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.title{
+	margin: 15px 0 20px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+.g_link{
+	margin-top: 40px;
+	text-decoration: none;
+	color: #626262;
+	display: block;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.blog_content{
+	overflow: hidden;
+}
+.blog_item{
+	margin-top: 70px;
+	float: left;
+	width: 47%;
+}
+.blog_item:nth-child(even){
+	margin-left: 6%;
+}
+.blog_img{
+	margin-bottom: 20px;
+}
+.blog_img img{
+	width: 100%;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.signup_h1{
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #333333;
+}
+.signup_form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.signup_form input{
+	font-family: "Playfair Display", serif;
+    width: 310px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000000;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.signup_form input:focus{
+	outline: none;
+}
+.signup_form button{
+	position: absolute;
+	border:none;
+	background: none;
+	top: 15px;
+	right: 17px;
+}
+.signup_form button img{
+}
+/*newsletter end*/
+/*blog2 start*/
+.blog2{}
+.load{
+	margin:150px 0 50px;
+	text-align: center;
+}
+.load button{
+	font-family:"Playfair Display", serif;
+	width: 165px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+	transition: .33s ease-in-out;
+}
+.load button:hover{
+	color: #ffffff;
+	background-color: #333333;
+}
+/*blog2 end*/
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	margin: 0 auto;
+}
+.pages{
+	width: 30%;
+	float: left;
+	margin-left: 65px;
+}
+.pages ul{
+	float: left;
+	padding: 0;
+}
+.pages ul li{
+	float: left;
+	list-style: none;
+}
+.pages ul li a{
+	margin-right: 40px;
+	color: #626262;
+	text-decoration: none;
+}
+.social{
+	width: 40%;
+	float: right;
+	margin-right: 65px;
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li span{
+}
+.social ul li a{
+	margin-left: 40px;
+	text-decoration: none;
+}
+.social ul li :last-child a{
+	margin-right: 0;
+}
+.social ul li a img{
+}
+/*footer end*/
